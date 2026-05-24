@@ -12,6 +12,16 @@ html,body{
     color: #333;
     margin-bottom: 40px;
     font-size: 20px;
+    line-height: 1.0;
+}
+.title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: hsl(43, 22%, 64%);
+  border-radius: 10px;
+  margin: 0.4em auto 0 auto;
 }
 .slider-image {
     display: block;
