@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;700&display=swap" rel="stylesheet">
     <link href="./style/index_style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8872f226af.js" crossorigin="anonymous"></script>    <title>一般財団法人福島学寮 | 入寮者向けページ</title>
+
 </head>
 <body class="background">
     <h1 class="title">一般財団法人 福島学寮<br>入寮者向けページへようこそ</h1>
@@ -21,5 +22,19 @@
     <footer>
         <p class="footer-text">Copyright © 2026 福島学寮 All rights reserved.</p>
     </footer>
+    <dialog class="dialog">
+  <p>高校生向けイベント実施中！！！</p>
+  <button onclick="location.href='test.html'">詳細はこちら！！</button>
+  <button id="closeDialog">とじる</button>
+</dialog>
+    <script>
+        const dialog = document.querySelector("dialog");
+        dialog.showModal();
+        const closeButton = document.querySelector("#closeDialog");
+        closeButton.addEventListener("click", () => {
+        dialog.close(); // モーダルダイアログを閉じる
+        });
+    </script>
+
 </body>
 </html>
