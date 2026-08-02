@@ -23,6 +23,12 @@ html,body{
   border-radius: 10px;
   margin: 0.4em auto 0 auto;
 }
+.full-image{
+    display: block;
+    margin: 0 auto 40px auto;
+    max-width: 100%;
+    height: auto;
+}
 .slider-image {
     display: block;
     margin: 0 auto 40px auto;
